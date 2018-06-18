@@ -4,7 +4,9 @@ const KEIO_LOGIN  = 'otp-libproxy2.keio.jp';
 const KEIO_AUTH = 'auth.lib.keio.ac.jp';
 const TIMEOUT = 'kras1.lib.keio.ac.jp';
 const SPRINGER = 'link.springer.com';
+const SPRINGER2 = 'link-springer-com';
 const IEEE = 'ieeexplore.ieee.org';
+const IEEE2 = 'ieeexplore-ieee-org';
 const LOGIN = 'er.lib.keio.ac.jp.kras1.lib.keio.ac.jp';
 const GOOGLE_SCHOLAR_URL = 'https://scholar-google-co-jp.kras1.lib.keio.ac.jp/';
 
@@ -50,13 +52,13 @@ switch(url_prefix){
 
   case SPRINGER:
     var sarr = url.split(SPRINGER);
-    var redirect_url = sarr[0] + SPRINGER +'.kras1.lib.keio.ac.jp' + sarr[1]
+    var redirect_url = sarr[0] + SPRINGER2 +'.kras1.lib.keio.ac.jp' + sarr[1]
     location.href = redirect_url
     break;
 
   case IEEE:
     var sarr = url.split(IEEE);
-    var redirect_url = sarr[0] + IEEE +'.kras1.lib.keio.ac.jp' + sarr[1]
+    var redirect_url = sarr[0] + IEEE2 +'.kras1.lib.keio.ac.jp' + sarr[1]
     location.href = redirect_url
     break;
 
