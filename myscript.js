@@ -52,14 +52,14 @@ switch(url_prefix){
 
   case SPRINGER:
     var sarr = url.split(SPRINGER);
-    var redirect_url = sarr[0] + SPRINGER2 +'.kras1.lib.keio.ac.jp' + sarr[1]
-    location.href = redirect_url
+    var redirect_url = sarr[0] + SPRINGER2 +'.kras1.lib.keio.ac.jp' + sarr[1];
+    location.href = redirect_url;
     break;
 
   case IEEE:
     var sarr = url.split(IEEE);
-    var redirect_url = sarr[0] + IEEE2 +'.kras1.lib.keio.ac.jp' + sarr[1]
-    location.href = redirect_url
+    var redirect_url = sarr[0] + IEEE2 +'.kras1.lib.keio.ac.jp' + sarr[1];
+    location.href = redirect_url;
     break;
 
   case LOGIN:
